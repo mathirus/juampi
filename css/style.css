@@ -94,7 +94,19 @@ h1, h2, h3, h4, h5, h6, figure {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    font-weight: 700; }
+    font-weight: 700; 
+  }
+  .colorlib-nav #colorlib-logo .sublogo{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 300; 
+    left: 5%;
+
+    position: relative;
+  }
+
     .colorlib-nav #colorlib-logo a {
       position: relative;
       color: #fff; }
@@ -335,6 +347,10 @@ h1, h2, h3, h4, h5, h6, figure {
           margin: 0;
           padding: 0;
           color: white; }
+          #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h4 {
+            margin: 0;
+            padding: 0;
+            color: white; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 30px;
           font-size: 50px;
